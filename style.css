@@ -1,0 +1,28 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.hero {
+  background-color: rgb(216, 216, 216);
+}
+
+.course {
+  background-color: rgb(234, 235, 236);
+}
+
+.banner {
+  width: 60%;
+  height: 20%;
+}
+.hero {
+  padding: 32px 24px;
+  align-items: center;
+}
+.hero-right {
+  display: flex;
+  flex-direction: column;
+  justify-items: start;
+  padding-left: 24px;
+}
+button {
+  width: 100%;
+}
