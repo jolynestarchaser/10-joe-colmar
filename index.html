@@ -2,112 +2,136 @@
 <html lang="en">
   <head>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>10-joe-colmar</title>
-    
   </head>
   <body>
     <header>
-        <nav class="flex flex-wrap justify-between h-16 content-center items-center">
-            <div class="flex ml-4 align-middle content-center items-center">
-                <img src="./capstone_colmar_assets/images/ic-logo.svg" class="h-8" />
-                <p class="text-gray-800 font-bold">COLMAR</p>
-                <p class="text-gray-600 font-light">ACADEMY</p>
-            </div>
-            <ul class="flex justify-around gap-4 mr-4">
-                <a href="#">
-                    <li>On campus</li>
-                </a>
-                
-                <a href="#">
-                    <li>Online</li>
-                </a>
-                <a href="#">
-                    <li>Our companies</li>
-                </a>
-                <a href="#">
-                    <li>Sign in</li>
-                </a>
-            </ul>
-        </nav>
-    </header>
-<main>
-     <!-- Hero -->
-    <section class="hero flex">
-        <img src="./capstone_colmar_assets/images/banner.jpg" class="banner"/>
-          <div class="hero-right">
-            <h1 class="font-bold pb-4 text-7xl text-gray-500">Learn something <br />
-                new everyday
-            </h1>
-            <h3 class="pb-4 text-3xl text-gray-800">Lorem ipsum dolor sit amet,<br>consectetur, adipisicing elit.
-            </h3>
-            <a>
-            <button class="pt-2 pb-2 bg-gray-800 text-white">Start here</button>
-            </a>
+      <nav
+        class="flex flex-wrap justify-between h-16 content-center items-center"
+      >
+        <div class="flex ml-4 align-middle content-center items-center">
+          <img src="./capstone_colmar_assets/images/ic-logo.svg" class="h-8" />
+          <p class="text-gray-800 font-bold">COLMAR</p>
+          <p class="text-gray-600 font-light">ACADEMY</p>
         </div>
-    </section>
-    <!-- Information -->
-    <section class="information flex">
-  <div class="w-3/5 border-r border-gray-200">
-          <img src="./capstone_colmar_assets/images/information-main.jpg" class="info-banner pb-8 pr-6"/>
-          <h1 class="font-bold text-4xl pb-6">It doesn't hurt to keep practicing</h1>
-          <h2 class="pb-6">"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa
+        <ul class="flex justify-around gap-4 mr-4">
+          <a href="#">
+            <li>On campus</li>
+          </a>
+
+          <a href="#">
+            <li>Online</li>
+          </a>
+          <a href="#">
+            <li>Our companies</li>
+          </a>
+          <a href="#">
+            <li>Sign in</li>
+          </a>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- Hero -->
+      <section class="hero flex">
+        <img src="./capstone_colmar_assets/images/banner.jpg" class="banner" />
+        <div class="hero-right">
+          <h1 class="font-bold pb-4 text-7xl text-gray-500">
+            Learn something <br />
+            new everyday
+          </h1>
+          <h3 class="pb-4 text-3xl text-gray-800">
+            Lorem ipsum dolor sit amet,<br />consectetur, adipisicing elit.
+          </h3>
+          <a>
+            <button class="pt-2 pb-2 bg-gray-800 text-white">Start here</button>
+          </a>
+        </div>
+      </section>
+      <!-- Information -->
+      <section class="information flex">
+        <div class="w-3/5 border-r border-gray-200">
+          <img
+            src="./capstone_colmar_assets/images/information-main.jpg"
+            class="info-banner pb-8 pr-6"
+          />
+          <h1 class="font-bold text-4xl pb-6">
+            It doesn't hurt to keep practicing
+          </h1>
+          <h2 class="pb-6">
+            "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa
             exercitationem, perferendis molestiae accusantium, labore quidem,
             aliquam magni sit non fuga fugit repellendus vel laboriosam deserunt
             laborum modi quos et eveniet. Voluptate."
-        </h2>
-        <p>Emanuel, Sr Strategist at Hiring.com</p>
+          </h2>
+          <p>Emanuel, Sr Strategist at Hiring.com</p>
         </div>
- <div class="information__list w-2/5 flex-col gap-4 ">      
-            <div class="flex items-center content-center border-b border-gray-200 p-4 ">
-<div  class="w-[35%] ">
-    <img src="./capstone_colmar_assets/images/information-orientation.jpg" class="w-full h-auto" />
-</div>
-<div class="w-[65%] pl-4 pb-2">
-    <h1 class="text-xl font-bold">Orientation date</h1>
-    <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
-    <a href="#">Read more</a>
-</div>   
-            </div>     
-        <div class="flex items-center content-center border-b border-gray-200 p-4">
-<div class="w-[35%]">
-    <img src="./capstone_colmar_assets/images/information-campus.jpg" class="w-full h-auto"/>
-</div>
-<div class="w-[65%] pl-4 pb-2">
-    <h1 class="text-xl font-bold">Our campus</h1>
-    <p>Find which campus is close by you</p>
-    <a href="#">Read more</a>
-</div>
-</div>
-            <div class="flex items-center content-center border-b border-gray-200 p-4  bg-gray-300">
-<div class="w-[35%]">
-    <img src="./capstone_colmar_assets/images/information-guest-lecture.jpg" class="w-full h-auto"
-    />
-</div>
-<div class="w-[65%] pl-4 pb-2">
-    <h1 class="text-xl font-bold">Our guest lecture</h1>
-    <p>
-        Join a keynote with Oliver Sack about music in medical treatment
-    </p>
-    <a href="#">Read more</a>
-</div>
+        <div class="information__list w-2/5 flex-col gap-4">
+          <div
+            class="flex items-center content-center border-b border-gray-200 p-4"
+          >
+            <div class="w-[35%]">
+              <img
+                src="./capstone_colmar_assets/images/information-orientation.jpg"
+                class="w-full h-auto"
+              />
             </div>
-
-    </div>
-</section>
+            <div class="w-[65%] pl-4 pb-2">
+              <h1 class="text-xl font-bold">Orientation date</h1>
+              <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+              <a href="#">Read more</a>
+            </div>
+          </div>
+          <div
+            class="flex items-center content-center border-b border-gray-200 p-4"
+          >
+            <div class="w-[35%]">
+              <img
+                src="./capstone_colmar_assets/images/information-campus.jpg"
+                class="w-full h-auto"
+              />
+            </div>
+            <div class="w-[65%] pl-4 pb-2">
+              <h1 class="text-xl font-bold">Our campus</h1>
+              <p>Find which campus is close by you</p>
+              <a href="#">Read more</a>
+            </div>
+          </div>
+          <div
+            class="flex items-center content-center border-b border-gray-200 p-4 bg-gray-300"
+          >
+            <div class="w-[35%]">
+              <img
+                src="./capstone_colmar_assets/images/information-guest-lecture.jpg"
+                class="w-full h-auto"
+              />
+            </div>
+            <div class="w-[65%] pl-4 pb-2">
+              <h1 class="text-xl font-bold">Our guest lecture</h1>
+              <p>
+                Join a keynote with Oliver Sack about music in medical treatment
+              </p>
+              <a href="#">Read more</a>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- Course -->
-      <section class="course grid gap-8 ">
+      <section class="course grid gap-8">
         <h1 class="text-4xl font-bold text-center pt-8">Start learning</h1>
-        <ul class="grid grid-cols-3 gap-8 content-center justify-items-center pl-[72px] pr-[72px] pb-8">
+        <ul
+          class="grid grid-cols-3 gap-8 content-center justify-items-center pl-[72px] pr-[72px] pb-8"
+        >
           <li class="course_list_1 course-card">
-            <img
-              src="./capstone_colmar_assets/images/course-software.jpg"
-            />
+            <img src="./capstone_colmar_assets/images/course-software.jpg" />
             <div>
-
               <h1>Software engineering</h1>
               <h2>COURSES</h2>
               <p>Web Development, Mobile Development, iOT, APIs</p>
@@ -118,7 +142,6 @@
               src="./capstone_colmar_assets/images/course-computer-art.jpg"
             />
             <div>
-
               <h1>Computer art</h1>
               <h2>COURSES</h2>
               <p>
@@ -128,20 +151,15 @@
             </div>
           </li>
           <li class="course_list_3 course-card">
-            <img
-              src="./capstone_colmar_assets/images/course-design.jpg"
-            />
+            <img src="./capstone_colmar_assets/images/course-design.jpg" />
             <div>
-
               <h1>Design</h1>
               <h2>COURSES</h2>
               <p>User Experience Design, User Reasearh, Visual Design</p>
             </div>
-            </li>
-            <li class="course_list_4 course-card">
-              <img
-              src="./capstone_colmar_assets/images/course-data.jpg"
-            />
+          </li>
+          <li class="course_list_4 course-card">
+            <img src="./capstone_colmar_assets/images/course-data.jpg" />
             <div>
               <h1>Data</h1>
               <h2>COURSES</h2>
@@ -149,9 +167,7 @@
             </div>
           </li>
           <li class="course_list_5 course-card">
-            <img
-              src="./capstone_colmar_assets/images/course-business.jpg"
-            />
+            <img src="./capstone_colmar_assets/images/course-business.jpg" />
             <div>
               <h1>Business</h1>
               <h2>COURSES</h2>
@@ -159,75 +175,81 @@
             </div>
           </li>
           <li class="course_list_6 course-card">
-            <img
-              src="./capstone_colmar_assets/images/course-marketing.jpg"
-            />
+            <img src="./capstone_colmar_assets/images/course-marketing.jpg" />
             <div>
               <h1>Marketing</h1>
               <h2>COURSES</h2>
               <p>Analytics, Content Marketing, Mobile Marketing</p>
             </div>
-            </li>
+          </li>
         </ul>
       </section>
       <!-- Thesis -->
-      <section class="thesis">
-        <div>
-        <div>
-    <video src="./capstone_colmar_assets/videos/thesis.mp4" controls>
-         </div>
-            <div>
+      <section class="py-8 px-6 max-w-[1200px] mx-auto">
+        <h1 class="text-center text-4xl font-bold mb-8">Thesis exhibit</h1>
 
-                <h1>Reimagine urban</h1>
-                <h2>
-                    "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa
-                    exercitationem, perferendis molestiae accusantium, labore quidem,
-                    aliquam magni sit non fuga fugit repellendus vel laboriosam deserunt
-                    laborum modi quos et eveniet. Voluptate."
-                        </h2>
+        <div class="flex flex-row gap-6">
+          <div class="w-[60%]">
+            <video controls class="w-full mb-4">
+              <source
+                src="./capstone_colmar_assets/videos/thesis.mp4"
+                type="video/mp4"
+              />
+            </video>
+            <h2 class="text-2xl font-bold mb-2">Reimagine urban</h2>
+            <p class="text-gray-600">
+              "Curabitur vitae libero in ipsum porttitor consequat..."
+            </p>
+          </div>
+
+          <div class="w-[40%] flex-row gap-4">
+            <div class="flex items-start bg-gray-100 p-4 gap-4">
+              <img
+                src="./capstone_colmar_assets/images/thesis-fisma.jpg"
+                class="w-[35%] h-auto"
+                alt="Fisma"
+              />
+              <div>
+                <h3 class="font-bold">Fisma: Design and Prototype</h3>
+                <p class="text-sm text-gray-500">
+                  Designer showcase of new prototype product
+                </p>
+              </div>
             </div>
-             
-        </div>
-<div>
-    <ul>
-          <li>
-            <img
-              src="./capstone_colmar_assets/images/thesis-fisma.jpg"
-            />
-            <h1>Fisma: Design and Prototype</h1>
-            <p>Designer showcase of new prototype product</p>
-            <a href="#">Read more</a>
-          </li>
-          <li>
-            <img
-              src="./capstone_colmar_assets/images/thesis-now-and-then.jpg"
-            />
-            <h1>Now and then</h1>
-            <p>Research study about New york</p>
-            <a href="#">Read more</a>
-          </li>
-          </ul>
-</div>
-      </div>
-</section>
-</main>
- <!-- Footer 3 -->
-    <hr>
-    <footer>
-<div>
 
-    <small>
-        
-       ©Colmar Academy. All rights reserved
-    </small> 
-</div>
-    <div>
-    <h1>10-joe-colmar</h1>
-    </div>
-<div>
-<a>Terms</a>
-<a>Privacy</a>
-</div>
+            <div class="flex items-start p-4 gap-4">
+              <img
+                src="./capstone_colmar_assets/images/thesis-now-and-then.jpg"
+                class="w-[35%] h-auto"
+                alt="Now and then"
+              />
+              <div>
+                <h3 class="font-bold">Now and then</h3>
+
+                <p class="text-sm text-gray-500">
+                  Research study about New York
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer 3 -->
+    <hr />
+    <footer class="justify-between flex-row">
+      <div class="px-[16px] py-[16px]">
+        <div>
+          <small> © Colmar Academy. All rights reserved </small>
+        </div>
+        <div>
+          <h1>10-joe-colmar</h1>
+        </div>
+        <div>
+          <a>Terms</a>
+          <a>Privacy</a>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
